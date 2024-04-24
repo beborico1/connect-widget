@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat de Amazon Connect</title>
+</head>
+<body>
+    <h1>Bienvenido al Chat de Amazon Connect</h1>
+    <p>Haz clic en el ícono de chat para comenzar a hablar.</p>
+
+    <script type="text/javascript">
+        (function(w, d, x, id){
+            var s = d.createElement('script');
+            s.src = 'https://dtn7rvxwwlhud.cloudfront.net/amazon-connect-chat-interface-client.js';
+            s.async = 1;
+            s.id = id;
+            d.getElementsByTagName('head')[0].appendChild(s);
+            w[x] = w[x] || function() { (w[x].ac = w[x].ac || []).push(arguments) };
+        })(window, document, 'amazon_connect', 'c94413cd-0289-4119-b064-c2abf4d8fdf7');
+
+        amazon_connect('styles', {
+            iconType: 'CHAT_VOICE',
+            openChat: { color: '#ffffff', backgroundColor: '#123456' },
+            closeChat: { color: '#ffffff', backgroundColor: '#123456'}
+        });
+
+        amazon_connect('snippetId', 'QVFJREFIakZhMVo2ZGZmSXpGSnpJS2lYakthYVBxMmJIU0ZPbnhET3AyalJDV1F3UWdFYnk3MnltVWhrQzdUV3ZKUzgwM2t5QUFBQWJqQnNCZ2txaGtpRzl3MEJCd2FnWHpCZEFnRUFNRmdHQ1NxR1NJYjNEUUVIQVRBZUJnbGdoa2dCWlFNRUFTNHdFUVFNUGdPYlBRQ2NLSGMwOWp1Y0FnRVFnQ3VUbXA3UFduQWZMbXV6b1MxakQyZTgvQUU2M3poZk5vMytUeE5mYWh3VGhuL1R6bTNvcVVlaWxmUFM6Oi9walBTMWlPdmxvSGFWbUlId2xWZzB6SUltenIwOVI5VXlZZVAxUCtYSzlZOFpoSVJ3VDdhTExOVWYrZmYwTFhoQStxdFEyaFMrS2VYL1ZTRy9rUVRqTWQ0R21DMDBIOUh6R2VXcXlyNFl0ZnZlb2VFNGFid2F2N3dtcDFlSjJZd2J5VkdRVDZrc3pDU1VLU2QwUVZkelpMVzVpZmVYST0=');
+
+        amazon_connect('supportedMessagingContentTypes', [
+            'text/plain',
+            'text/markdown',
+            'application/vnd.amazonaws.connect.message.interactive',
+            'application/vnd.amazonaws.connect.message.interactive.response'
+        ]);
+    </script>
+</body>
+</html>
