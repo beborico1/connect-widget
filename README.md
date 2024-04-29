@@ -13,16 +13,16 @@
 ![Arquitectura prevista](./images/image4.png)
 
 ### Flujo de Contacto (para pruebas):
-![Flujo de Contacto](https://example.com/image6.png)
+![Flujo de Contacto](./images/image6.png)
 
 #### Setting Up Live media streaming:
 
 En la sección Data Storage:
 
-![Sección Data Storage](https://example.com/image9.png)
+![Sección Data Storage](./images/image9.png)
 
 #### Permitir funciones Lambda:
-![Permitir funciones Lambda](https://example.com/image5.png)
+![Permitir funciones Lambda](./images/image5.png)
 
 #### Ejemplo de evento recibido por la Lambda:
 
@@ -146,7 +146,7 @@ En la sección Data Storage:
 - [New for Amazon Transcribe – Real-Time Analytics During Live Calls](https://aws.amazon.com/es/blogs/aws/new-for-amazon-transcribe-real-time-analytics-during-live-calls/)
 - [Amazon Transcribe Call Analytics](https://aws.amazon.com/transcribe/call-analytics/)
 
-![Imagen adicional](https://example.com/image2.png)
-![Otra imagen](https://example.com/image1.png)
-![Tercera imagen](https://example.com/image8.png)
-![Cuarta imagen](https://example.com/image7.png)
+![Imagen adicional](./images/image2.png)
+![Otra imagen](./images/image1.png)
+![Tercera imagen](./images/image8.png)
+![Cuarta imagen](./images/image7.png)
