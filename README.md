@@ -7,10 +7,10 @@
 [https://beborico1.github.io/connect-widget/index.html](https://beborico1.github.io/connect-widget/index.html)
 
 ### Prototipo del Componente:
-![Prototipo del Componente](https://example.com/image3.png)
+![Prototipo del Componente](../images/image3.png)
 
 ### Arquitectura prevista:
-![Arquitectura prevista](https://example.com/image4.png)
+![Arquitectura prevista](../images/image4.png)
 
 ### Flujo de Contacto (para pruebas):
 ![Flujo de Contacto](https://example.com/image6.png)
